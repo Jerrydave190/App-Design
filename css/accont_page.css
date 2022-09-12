@@ -1,0 +1,43 @@
+body{
+    background-color: #835757B0;
+}
+.owen_amblessed{
+    height: 43px;
+    width: 198px;
+    left: 36px;
+    top: 129px;
+    border-radius: nullpx;
+
+}
+.savings_account{
+    height: 47px;
+    width: 183px;
+    left: 36px;
+    top: 149px;
+    border-radius: nullpx;
+
+}
+.inline li{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 800;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.logout{
+    height: 71px;
+    width: 225px;
+    left: 36px;
+    top: 761px;
+    border-radius: nullpx;
+
+}
