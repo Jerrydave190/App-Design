@@ -165,3 +165,47 @@ footer .contact {
     border:none;
     padding: 0.5rem;
 }
+
+.hamburger-button {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: right;
+    position: relative;
+    width: 45px;
+    height: 34px;
+    transition: .3s ease-in-out;
+}
+
+.hamburger-button span {
+    position: absolute;
+    height: 5px;
+    border-radius: 4px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+    align-content: flex-end;
+    justify-content: right;
+}
+.hamburger-button span:nth-child(1){
+    top: 0px;
+}
+.hamburger-button span:nth-child(2),  
+.hamburger-button span:nth-child(3){
+    top: 13px;
+}
+.hamburger-button span:nth-child(4){
+    top: 26px;
+}
+.hamburger-button.active span: :nth-child(1),
+.hamburger-button.active span: :nth-child(4) {
+    opacity: 0;
+}
+
+.hamburger-button.active span: :nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.hamburger-button.active span: :nth-child(3) {
+    transform: rotate(-45deg);
+}

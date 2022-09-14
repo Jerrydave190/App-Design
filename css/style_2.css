@@ -25,6 +25,7 @@ body{
     padding: 0;
     background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
 }
+<<<<<<< HEAD
 
 nav .logo img {
     height: 3rem;
@@ -48,6 +49,9 @@ nav .logo img {
 }
 
 h1{
+=======
+/*h1{
+>>>>>>> cceca175aeefe2db4f2d8d6a71b15cf83e1bbe89
     display: block;
     font-size: 2Cm;
     margin-block-start: 0.67em;
@@ -56,12 +60,11 @@ h1{
     margin-inline-end: 0px;
     font-weight: bold;
     align-items: center;
-    display: flex;
     justify-content: center;
     color: rgba(43, 164, 208, 0.555);
     font-family: 'Times New Roman', Times, serif;
     
-}
+}*/
 .gif{
     width: 5cm;
     height: 5cm;
