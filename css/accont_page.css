@@ -1,5 +1,6 @@
 body{
     background-color: #835757B0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .owen_amblessed{
     height: 43px;
@@ -18,21 +19,16 @@ body{
 
 }
 .inline li{
-    font-family: Inter;
-font-size: 16px;
-font-weight: 800;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-
-font-family: Inter;
-font-size: 14px;
-font-weight: 600;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
-
+    display: block;
+    padding: 10px 30px;
 }
+.inline li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    color: darkslategray;
+}
+
 .logout{
     height: 71px;
     width: 225px;
