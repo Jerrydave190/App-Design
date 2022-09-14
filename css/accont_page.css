@@ -1,8 +1,72 @@
+<<<<<<< HEAD
 body{
     background-color: #835757B0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+*{
+box-sizing: border-box;
+padding: 1;
+margin: 2;
+>>>>>>> 697736aed47da6f8cea2ae44f906cad52f3d8443
 }
-.owen_amblessed{
+body{
+<<<<<<< HEAD
+    background-image: url(../images/massimili\ -\ Copy.jpg);
+    background-size: cover;
+
+=======
+    background-color: #835757B0;
+    background-position: 50%;
+>>>>>>> cceca175aeefe2db4f2d8d6a71b15cf83e1bbe89
+}
+div a{
+    font-weight: bolder;
+    color: aliceblue;
+    display: flex;
+    justify-content: right;
+}
+.img{
+    width: 2cm;
+    height: 2cm;
+}
+.name{
+    font-size: 1cm;
+    color: rgb(172, 163, 148);
+    font-weight: bolder;
+}
+.savings_account{
+    color: aliceblue;
+    font-weight: bolder;
+}
+.btn{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: .3em;
+    text-decoration: none;
+    padding: 20px 50px;
+    position: relative;
+    height: 1.5cm;
+}
+.bankstuff{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bankstuff .btn{
+    padding: 0.3rem 1rem; 
+    margin-top: 1cm;
+    color: rgb(255, 255, 255);
+    font-size: 0.5cm;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    top:2cm;
+}
+/*.owen_amblessed{
     height: 43px;
     width: 198px;
     left: 36px;
@@ -19,8 +83,25 @@ body{
 
 }
 .inline li{
+<<<<<<< HEAD
     display: block;
     padding: 10px 30px;
+=======
+font-family: Inter;
+font-size: 16px;
+font-weight: 800;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+>>>>>>> 697736aed47da6f8cea2ae44f906cad52f3d8443
 }
 .inline li a{
     text-decoration: none;
@@ -34,6 +115,7 @@ body{
     width: 225px;
     left: 36px;
     top: 761px;
-    border-radius: nullpx;
+    border-radius: npx;
+    padding: 0.2rem;
 
-}
+}*/

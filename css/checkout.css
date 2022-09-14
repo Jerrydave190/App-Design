@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+    
+}
+center div h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main {
+    
+}
+
+.id {
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+    color: white;
+    border: none;
+    outline: none;
+}
+input{
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+   
+}

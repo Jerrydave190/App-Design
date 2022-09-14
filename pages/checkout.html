@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/checkout.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <div class="main">
+            <h1>Total Balance</h1>
+        </div>
+        <form id="checkoutform"> 
+            <div class="id">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name"> <br><br>
+                <label for="account">Account type:</label>
+                <select name="account" id="Accounttype">
+                    <option value="savings"> Savings </option>
+                    <option value="current"> Current </option>
+                    <option value="domi"> Domiciliary </option>
+                </select> <br><br>
+                <label for="amount">Amount: </label>
+                <input type="text" id="amount" name="amount"> <br><br>
+                <label for="currency">Currency:</label>
+                <select name="currency" id="currency">
+                    <option value=" Dollar"> Dollar </option>
+                    <option value="Euro"> Euro </option>
+                    <option value="Pounds"> Pounds </option>
+                </select><br>
+                <button type="submit">Submit</button>
+            </div>  
+        </form>
+    </center>
+    <script src="../js/checkout.js"></script>
+</body>
+
+</html>
